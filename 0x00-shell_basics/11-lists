@@ -1,4 +1,2 @@
 #!/bin/bash
-printf "Current directory:\n";ls -al "$(pwd)";printf "\nParent of working directory:\n";cd ..;ls -al;printf "\n/boot directory:\n";cd /boot;ls -al
-
-
+ls -l .. /boot
