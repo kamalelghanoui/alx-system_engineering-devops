@@ -1,2 +1,2 @@
 #!/bin/bash
-root= eval echo ~kamal el ghanoui
+cd root/
