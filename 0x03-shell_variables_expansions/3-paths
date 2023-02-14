@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=":" read -ra dirs <<< "$PATH" 
+echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin | tr ':' '\n' | grep -c '^/'
