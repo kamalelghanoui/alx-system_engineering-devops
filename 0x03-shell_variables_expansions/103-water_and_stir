@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo $WATER | tr water 01234567) + $(echo $STIR | tr stir 01234567) )) | tr 01234567 bestchol 
+python3 -c "print(int(, 27) + int(, 27))" | python3 -c "print(format(int(input()), bestchol))" 
